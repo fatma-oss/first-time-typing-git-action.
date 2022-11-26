@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /application 
 COPY fatma.java .
-RUN javac Fatma.java
-CMD java Fatma
+RUN javac fatma.java
+CMD java fatma

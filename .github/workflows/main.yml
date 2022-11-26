@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "login to Docker hub"
-        run: docker login --username fatmaos2 --pasword dckr_pat_sXag9J2VVB3mAUn5SBSUxQRZdWk
+        run: docker login --username fatmaos2 --password dckr_pat_sXag9J2VVB3mAUn5SBSUxQRZdWk
 
 
 

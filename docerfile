@@ -1,4 +1,4 @@
 FROM openjdk
-WORKDIR/ applicatiation 
+WORKDIR /applicatiation 
 COPY fatma.java .
 RUN javac fatma.java
